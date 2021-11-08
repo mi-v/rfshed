@@ -29,7 +29,7 @@ To run it you will have to provide the 3″ ("90m") SRTM .hgt files.
 
 -z *Web Mercator zoom level*
 
--rr *factor* to simulate refractions by adjusting Earth curvature by the factor specified
+-rr *factor* to simulate refraction by adjusting Earth curvature by the factor specified
 
 -rt *degrees Celsius* to estimate refraction using a specified temperature at the observation point
 
