@@ -1,5 +1,5 @@
 # rfshed
-A reasonably fast CUDA accelerated viewshed generator. Creates a 12k×12k pixels viewshed image in well under a second on a GTX 1660 GPU.
+A reasonably fast CUDA accelerated viewshed generator. Creates a 12k×12k pixels viewshed image in well under a second on a GTX 1660 GPU. The algorithm used is not perfectly accurate but artifacts are mostly observed in areas of acute sighting angles where vegetation and other factors not well expressed in the DEM may play major role in visibility.
 
 ## Requirements
 Install Go and CUDA to build.
