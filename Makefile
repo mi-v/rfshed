@@ -13,7 +13,7 @@ lib%.so: %.cu %.h
 	chmod -x $@
 
 rfshed: $(shell find -type f -name '*.go')
-	GOARCH=amd64 go build -ldflags="-s -w" rfshed
+	GOARCH=amd64 go build -ldflags="-s -w"
 
 run: build
 	LD_LIBRARY_PATH=. ./rfshed

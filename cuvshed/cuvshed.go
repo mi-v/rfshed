@@ -1,9 +1,9 @@
 package cuvshed
 
 import (
-    _ "rfshed/cuinit"
-    "rfshed/hgtmgr"
-    "rfshed/latlon"
+    _ "github.com/mi-v/rfshed/cuinit"
+    "github.com/mi-v/rfshed/hgtmgr"
+    "github.com/mi-v/rfshed/latlon"
     "fmt"
     "errors"
     "log"

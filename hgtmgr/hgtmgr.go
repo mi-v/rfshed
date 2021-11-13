@@ -4,9 +4,9 @@ import (
     "os"
     "math"
     "errors"
-    "rfshed/cuhgt"
-    "rfshed/latlon"
-    . "rfshed/conf"
+    "github.com/mi-v/rfshed/cuhgt"
+    "github.com/mi-v/rfshed/latlon"
+    . "github.com/mi-v/rfshed/conf"
 )
 
 type HgtMgr struct {

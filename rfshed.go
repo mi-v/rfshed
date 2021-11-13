@@ -3,9 +3,9 @@ package main
 import (
     "os"
     "log"
-    "rfshed/latlon"
-    "rfshed/hgtmgr"
-    "rfshed/cuvshed"
+    "github.com/mi-v/rfshed/latlon"
+    "github.com/mi-v/rfshed/hgtmgr"
+    "github.com/mi-v/rfshed/cuvshed"
     "strconv"
     "flag"
     "image"

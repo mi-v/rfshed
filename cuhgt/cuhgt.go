@@ -3,8 +3,8 @@ package cuhgt
 import (
     "os"
     "fmt"
-    _ "rfshed/cuinit"
-    "rfshed/latlon"
+    _ "github.com/mi-v/rfshed/cuinit"
+    "github.com/mi-v/rfshed/latlon"
     "log"
 )
 
